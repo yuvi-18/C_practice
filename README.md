@@ -6,8 +6,9 @@
  copy path of bin in installed gw
  paste in environtmental variables,system variables,path, edit, new, paste the path
 
-write the code in vs code but run in cmd
+install c intelligence extention
 
+write the code in vs code but run in cmd
 open the path through cmd  
 
 
