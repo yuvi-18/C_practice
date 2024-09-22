@@ -2,7 +2,7 @@
  C learn
 
  install vs code 
- install mingw and gcc, gccg++ compiler checkbox
+ install mingw and gcc, gccg++ (gnu gcc) compiler checkbox
  copy path of bin in installed gw
  paste in environtmental variables,system variables,path, edit, new, paste the path
 
