@@ -17,3 +17,12 @@ C:\Users\yuvraj singh\Documents\C_practice>gcc -o m.exe basics_1.c
 C:\Users\yuvraj singh\Documents\C_practice>m.exe
 Hello World
 C:\Users\yuvraj singh\Documents\C_practice>
+
+# variables
+
+## int 
+
+```c
+int a // declaration
+a = 5 // initialising
+```
