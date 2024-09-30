@@ -42,5 +42,3 @@ breakdown ⬇️
 the int keyword indicates that the fucntion main will return an integer or a simple number. if code runs, it returns 0, greater number or -1 means program failed / error.
 */
 ```
-
-
