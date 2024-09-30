@@ -7,13 +7,13 @@ int main(){
     // scanf("breath");
 
     int length, breadth;
-    
+
     printf("Enter length\n");
     scanf("%d", &length);
 
     printf("Enter breadth\n");
     scanf("%d", &breadth);
 
-    printf("the are of the reactangle is ", length*breath);
+    printf("the are of the reactangle is ", length*breadth);
     return 0;
 }
