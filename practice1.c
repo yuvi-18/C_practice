@@ -1,3 +1,5 @@
+//code for finding area of a rectangle from user input
+
 #include <stdio.h>
 
 int main(){
@@ -14,6 +16,7 @@ int main(){
     printf("Enter breadth\n");
     scanf("%d", &breadth);
 
-    printf("the are of the reactangle is ", length*breadth);
+    // printf("the are of the reactangle is ", length*breadth);
+    printf("the are of the reactangle is %d", length*breadth);
     return 0;
 }
