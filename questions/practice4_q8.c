@@ -14,6 +14,5 @@ int main()
         int fac = n * (n - i);
         printf("the factorial of %d is %d", n);
     }
-
     return 0;
 }
