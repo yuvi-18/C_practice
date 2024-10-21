@@ -4,20 +4,26 @@
 
 int main(){
     int n;
-    printf("Enetr a number: ");
+    printf("Enter a number: ");
     scanf("%d", &n);
-    for (int i = 2; i <= n; i++)
+    int remainder = 1;
+    for (int i = 2; i < n; i++)
     {
-        if (n % i == 0)
+        remainder = n % i;
+        if (remainder == 0)
         {
-            printf("%d is not a prime number", n);
-        } else if (n <= 1)
-        {
-            printf("Please enter a number Grater than 1");
-        } else
-        {
-            printf("%d is a prime number", n);
+            break;
         }
+    }
+    if (remainder == 0)
+    {
+        printf("The Entered number %d is not Prime",n );
+    } else if (n <= 1)
+    {
+        printf("The Entered number %d is not Prime",n );
+    } else
+    {
+        printf("The Enetered number %d is prime", n);
     }
     return 0;
 }
