@@ -6,9 +6,9 @@ int main(){
     int n;
     printf("Enter a Number: ");
     scanf("%d", &n);
-    for (int i = 0; i < 11; i++)
+    for (int i = 1; i < 11; i++)
     {
-        printf("%d times %d is %d\n", n, i, n * i);
+        printf("%d X %d = %d\n", n, i, n * i);
     }
     
     return 0;
