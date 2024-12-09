@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main(){
+int main(){ 
     int p,r,t;
     printf("Enter p or principal amount ");
     scanf("%d", &p);
