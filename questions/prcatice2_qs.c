@@ -17,15 +17,15 @@ answer floating point number
 
 // 3. Write a program to check whether a number is divisible by 97 or not.
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main(){
-    int a;
-    printf("Enter your Number ");
-    scanf("%d", &a);
-    printf("The remainder of %d divided by 97 is %d", a, a % 97);
-    return 0;
-}
+// int main(){
+//     int a;
+//     printf("Enter your Number ");
+//     scanf("%d", &a);
+//     printf("The remainder of %d divided by 97 is %d", a, a % 97);
+//     return 0;
+// }
 
 // 4. Explain step by step evaluation of 3*x/y – z+k, where x=2, y=3, z=3, k=1
 
