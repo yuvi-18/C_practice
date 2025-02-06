@@ -37,15 +37,6 @@ int main(){
     float passMarks = (40.0/100.0) * 300;
     printf("pass marks %.2f \n", passMarks);
 
-    // float firstPass = (33.0/100.0) * 100;
-    // printf("first sucject passing marks %.2f \n", firstPass);
-
-    // float secondPass = (33.0/100.0) * 100;
-    // printf("second sucject passing marks %.2f \n", secondPass);
-
-    // float thirdPass = (33.0/100.0) * 100;
-    // printf("third sucject passing marks %.2f \n", thirdPass);
-
     int individualPass = 33;
 
     if (total >= passMarks && firstSubject >= individualPass&& secondSubject >= individualPass&& thirdSubject >= individualPass)
@@ -53,7 +44,7 @@ int main(){
         printf("Congrats You passed the test \n");
     }
     else {
-        printf("You failed \n");
+        printf("You failed\n");
     }
     return 0;
 }

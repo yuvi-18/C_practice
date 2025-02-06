@@ -6,6 +6,7 @@ int main(){
     int c;
     printf("Enter the celcius value ");
     scanf("%d", &c);
-    printf("The converted value of celcius %d to Fahrenheit is %.2f", c, (9.0/5.0)*c +32);
+    int f = (9.0/5.0)*c +32;
+    printf("The converted value of celcius %d to Fahrenheit is %d", c, f);
     return 0;
 }

@@ -1,12 +1,13 @@
-// code to find the radius of the circle and volume of a cylinder
+// code to find the area of the circle and volume of a cylinder
 
-#include <stdio.h>
+// #include <stdio.h>
 
 // int main(){
 //     int r;
 //     printf("Enter the radius of the circle\n");
 //     scanf("%d", &r);
-//     printf("the area of a circle with radius %d is %f", r, 3.14*r*r);
+//     int h = 3.14*r*r;
+//     printf("the area of a circle is %d", h);
 //     return 0;
 // }
 
